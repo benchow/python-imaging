@@ -474,6 +474,7 @@ if __name__ == "__main__":
         description=DESCRIPTION,
         download_url=DOWNLOAD_URL % (NAME, VERSION),
         ext_modules = [Extension("_imaging", ["_imaging.c"])], # dummy
+        extra_path = "PIL",
         license="Python (MIT style)",
         long_description=DESCRIPTION,
         name=NAME,
