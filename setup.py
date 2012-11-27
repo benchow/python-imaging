@@ -478,7 +478,7 @@ if __name__ == "__main__":
         license="Python (MIT style)",
         long_description=DESCRIPTION,
         name=NAME,
-        package_dir={"": "PIL"},
+        package_dir={"PIL": "PIL"},
         packages=[""],
         platforms="Python 1.5.2 and later.",
         scripts = glob.glob("Scripts/pil*.py"),
